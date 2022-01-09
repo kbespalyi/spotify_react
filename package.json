@@ -1,0 +1,25 @@
+{
+  "name": "spotify_react",
+  "version": "1.0.0",
+  "description": "Spotify connected app with React",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd app && npm start",
+    "postinstall": "cd app && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
