@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'CircularStd';
+    src: url('CircularStd-Black.eot');
+    src: url('CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Black.woff2') format('woff2'),
+        url('CircularStd-Black.woff') format('woff'),
+        url('CircularStd-Black.ttf') format('truetype'),
+        url('CircularStd-Black.svg#CircularStd-Black') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CircularStd';
+    src: url('CircularStd-Medium.eot');
+    src: url('CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Medium.woff2') format('woff2'),
+        url('CircularStd-Medium.woff') format('woff'),
+        url('CircularStd-Medium.ttf') format('truetype'),
+        url('CircularStd-Medium.svg#CircularStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CircularStd';
+    src: url('CircularStd-Bold.eot');
+    src: url('CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Bold.woff2') format('woff2'),
+        url('CircularStd-Bold.woff') format('woff'),
+        url('CircularStd-Bold.ttf') format('truetype'),
+        url('CircularStd-Bold.svg#CircularStd-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CircularStd';
+    src: url('CircularStd-Book.eot');
+    src: url('CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Book.woff2') format('woff2'),
+        url('CircularStd-Book.woff') format('woff'),
+        url('CircularStd-Book.ttf') format('truetype'),
+        url('CircularStd-Book.svg#CircularStd-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+.circularstd {
+  font-family: 'CircularStd';
+}
+.circularstd-black {
+  font-weight: 800!important;
+}
+.circularstd-bold {
+  font-weight: 600!important;
+}
+.circularstd-medium {
+  font-weight: 500!important;
+}
+.circularstd-book {
+  font-weight: 400!important;
+}
+.circularstd h1, .circularstd h2, .circularstd h3, .circularstd h4, .circularstd h5, .circularstd h6, .circularstd p, .circularstd blockquote {
+  margin: 0;
+}
+.circularstd h1 {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+.circularstd h2 {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 54px;
+}
+.circularstd h3 {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+.circularstd h4 {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.circularstd h5 {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+.circularstd h6 {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+.circularstd p {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+.circularstd p.small {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+}
+.circularstd .btn {
+  font-family: 'CircularStd';
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 25px;
+}
+.circularstd .btn-link {
+  font-family: 'CircularStd';
+  font-size: 16px;
+  font-weight: 400;
+  color:#707070;
+}
+.circularstd .btn-link:hover {
+  color:#000;
+}
+.circularstd .btn.btn-pill {
+  font-family: 'CircularStd';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px 25px;
+}
+.circularstd ul {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  padding-left: 17px;
+}
+.circularstd label {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-size: 14px;
+}
