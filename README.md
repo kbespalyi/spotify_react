@@ -115,3 +115,21 @@ In a nutshell, our app will store four items in local storage:
 Whenever our app needs to send a request to the Spotify API with an access token, we'll use the access token we stored in local storage. In the case the token has expired, we'll refresh it in the background using our refresh token from local storage.
 
 Example for playlist: <https://api.spotify.com/v1/playlists/59ZbFPES4>
+
+Deploying With Heroku (<https://dashboard.heroku.com/>)
+
+- favicon generator (<https://favicon.io/>)
+- update icons and manifest.json into app/public/favicon/ folder
+- add fonts to folder app/public/fonts/ folder
+- add metas, and links to icons and fonts into app/public/index.html file
+- make configs for heroku deployment: You might be wondering why we've chosen Heroku to deploy our app instead of similar platforms like Netlify or Vercel. The short answer is that Heroku lets us deploy a Node server while the others don't — Netlify and Vercel are only for deploying static sites.
+- update environment variables to .env.production and .env.development files
+- add new Redirect URI to Spotify settings: (<https://sporify-plus.herokuapp.com/callback>)
+- add environment variables to Heroku as same as for .env.production file, only REDIRECT_URI should be have links as for Spotify Redirect URI, and FRONTEND_URI to (<https://sporify-plus.herokuapp.com>)
+- build pack (<https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs>) and push to Heroku:
+  > heroku git:remote -a spotify-plus
+  > heroku buildpacks:set heroku/nodejs
+  > git push heroku master
+  > git push heroku origin:master
+See the Heroku docs for more details on deploying from a working branch.
+
