@@ -2,14 +2,14 @@
   "name": "spotify_react",
   "version": "1.0.0",
   "description": "Spotify connected app with React",
-  "main": "server/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "server": "nodemon server/index.js",
-    "client": "cd app && npm start",
-    "postinstall": "cd app && npm install",
-    "build": "NODE_ENV=production cd app/ && npm install && npm run build",
-    "start-server": "node server/index.js"
+    "server": "nodemon index.js",
+    "client": "cd client && npm start",
+    "postinstall": "cd client && npm install",
+    "build": "NODE_ENV=production cd client/ && npm install && npm run build",
+    "start-server": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,6 @@
   },
   "cacheDirectories": [
     "node_modules",
-    "app/node_modules"
+    "client/node_modules"
   ]
 }

@@ -119,9 +119,9 @@ Example for playlist: <https://api.spotify.com/v1/playlists/59ZbFPES4>
 Deploying With Heroku (<https://dashboard.heroku.com/>)
 
 - favicon generator (<https://favicon.io/>)
-- update icons and manifest.json into app/public/favicon/ folder
-- add fonts to folder app/public/fonts/ folder
-- add metas, and links to icons and fonts into app/public/index.html file
+- update icons and manifest.json into client/public/favicon/ folder
+- add fonts to folder client/public/fonts/ folder
+- add metas, and links to icons and fonts into client/public/index.html file
 - make configs for heroku deployment: You might be wondering why we've chosen Heroku to deploy our app instead of similar platforms like Netlify or Vercel. The short answer is that Heroku lets us deploy a Node server while the others don't — Netlify and Vercel are only for deploying static sites.
 - update environment variables to .env.production and .env.development files
 - add new Redirect URI to Spotify settings: (<https://sporify-plus.herokuapp.com/callback>)
