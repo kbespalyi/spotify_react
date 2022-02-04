@@ -25,7 +25,8 @@
     "nodemon": "^2.0.15"
   },
   "engines": {
-    "node": "12.22.7"
+    "node": "12.22.7",
+    "npm": "8.3.0"
   },
   "cacheDirectories": [
     "node_modules",
