@@ -1,6 +1,8 @@
 # Build a Spotify connected app with React
 
-[Sporify developer console](https://developer.spotify.com/dashboard)
+Demo here: <https://sporify-plus.herokuapp.com/>
+
+## Spotify API and [Sporify developer console](https://developer.spotify.com/dashboard)
 
 Authorization is asking for permission to do things. Authentication is about proving you are the correct person by providing credentials like a username or password.
 
